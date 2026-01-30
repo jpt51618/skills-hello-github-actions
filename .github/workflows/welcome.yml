@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # GitHub 공식 github-script (Node 24 지원 / 러너 2.327.1+)
+      # Node 20/24 호환 github-script
       - name: Comment PR
         uses: actions/github-script@v7
         with:
